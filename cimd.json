@@ -1,0 +1,14 @@
+{
+    "grant_types":  [
+                        "authorization_code"
+                    ],
+    "response_types":  [
+                           "code"
+                       ],
+    "client_id":  "https://raw.githubusercontent.com/ItsMeRobin101010011/cf-cimd-probe/main/cimd.json",
+    "client_name":  "H1CIMDPROBEMARKER",
+    "token_endpoint_auth_method":  "none",
+    "redirect_uris":  [
+                          "https://example.com/cb"
+                      ]
+}
